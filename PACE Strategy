@@ -1,0 +1,62 @@
+# **PACE Strategy for the Project**
+
+## **Plan**
+
+### **Objectives:**
+
+- Understand the soil properties affecting crop productivity in Chiquiza, Boyacá.
+- Develop actionable recommendations for optimal agricultural practices based on data insights.
+- Implement a Decision Trees algorithm to predict crop productivity based on soil properties.
+
+### **Key Questions:**
+
+- Which soil properties significantly influence crop productivity in Chiquiza, Boyacá?
+- What are the optimal ranges of soil properties for different crops to thrive?
+- Can we accurately predict crop productivity based on soil properties using a Decision Trees algorithm?
+
+## **Analyze**
+
+### **Data:**
+
+A fictional dataset based on real data from real soil studies implemented in a government projectis created to prove the algorithms
+The following soil properties will take into account:
+
+- Soil pH
+- Organic Matter
+- Nitrogen Content
+- Phosphorus Content
+- Potassium Content
+- Soil Moisture
+- Soil Temperature
+- Crop Productivity (target variable)
+
+### **Database Schema:**
+
+Table: SoilProperties
+- soil_id (Primary Key)
+- soil_ph (float)
+- organic_matter (float)
+- nitrogen_content (float)
+- phosphorus_content (float)
+- potassium_content (float)
+- soil_moisture (float)
+- soil_temperature (float)
+- crop_productivity (float)
+
+### **EDA (Exploratory Data Analysis):**
+
+- Summary statistics for each soil property.
+- Distribution plots for soil properties.
+- Correlation matrix to identify relationships between soil properties and crop productivity.
+
+
+## **Construct**
+
+Algorithm: Decision Trees
+We'll use the scikit-learn Python library to implement the Decision Trees algorithm for predicting crop productivity based on soil properties.
+Train the Decision Trees algorithm using the dataset.
+Evaluate the model and fine-tune hyperparameters if needed.
+
+## **Execute**
+
+Generate recommendations for optimal agricultural practices based on the model.
